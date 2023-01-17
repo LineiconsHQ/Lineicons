@@ -1,0 +1,3070 @@
+/*--------------------------------
+
+Lineicons Free Web Font
+Crafted by Lineicons.com Team
+Version: 4.0
+
+-------------------------------- */
+
+@lni-font-path: "../fonts";
+
+@font-face {
+  font-family: 'lineicons';
+  src: url('@{lni-font-path}/lineicons.eot');
+  src: url('@{lni-font-path}/lineicons.eot') format('embedded-opentype'),
+       url('@{lni-font-path}/lineicons.woff2') format('woff2'),
+       url('@{lni-font-path}/lineicons.woff') format('woff'),
+       url('@{lni-font-path}/lineicons.ttf') format('truetype'),
+       url('@{lni-font-path}/lineicons.svg') format('svg');
+}
+
+/* base class */
+.lni {
+  display: inline-block;
+  font: normal normal normal 1em/1 'lineicons';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.lni-sm {
+	font-size: 0.8em;
+}
+
+.lni-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.lni-16 {
+  font-size: 16px;
+}
+
+.lni-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.lni-is-spinning {
+  animation: lni-spin 1s infinite linear;
+}
+
+@keyframes lni-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.lni-rotate-90  {
+	transform: rotate(90deg);
+}
+
+.lni-rotate-180 {
+	transform: rotate(180deg);
+}
+
+.lni-rotate-270 {
+	transform: rotate(270deg);
+}
+
+.lni-flip-y {
+	transform: scaleY(-1);
+}
+
+.lni-flip-x {
+	transform: scaleX(-1);
+}
+
+/* icons */
+@lni-zoom-out: "\ea02";
+@lni-zoom-in: "\ea03";
+@lni-zip: "\ea04";
+@lni-website: "\ea05";
+@lni-website-alt: "\ea06";
+@lni-users: "\ea07";
+@lni-user: "\ea08";
+@lni-upload: "\ea09";
+@lni-unlink: "\ea0a";
+@lni-trash-can: "\ea0b";
+@lni-timer: "\ea0c";
+@lni-tab: "\ea0d";
+@lni-star-half: "\ea0e";
+@lni-star-fill: "\ea0f";
+@lni-star-empty: "\ea10";
+@lni-signal: "\ea11";
+@lni-shortcode: "\ea12";
+@lni-shopping-basket: "\ea13";
+@lni-share: "\ea14";
+@lni-share-alt: "\ea15";
+@lni-search: "\ea16";
+@lni-search-alt: "\ea17";
+@lni-scroll-down: "\ea18";
+@lni-save: "\ea19";
+@lni-rss-feed: "\ea1a";
+@lni-rocket: "\ea1b";
+@lni-remove-file: "\ea1c";
+@lni-reload: "\ea1d";
+@lni-printer: "\ea1e";
+@lni-plug: "\ea1f";
+@lni-package: "\ea20";
+@lni-mouse: "\ea21";
+@lni-mobile: "\ea22";
+@lni-microphone: "\ea23";
+@lni-mic: "\ea24";
+@lni-menu: "\ea25";
+@lni-map: "\ea26";
+@lni-map-marker: "\ea27";
+@lni-magnifier: "\ea28";
+@lni-magnet: "\ea29";
+@lni-link: "\ea2a";
+@lni-laptop: "\ea2b";
+@lni-laptop-phone: "\ea2c";
+@lni-keyboard: "\ea2d";
+@lni-image: "\ea2e";
+@lni-headphone: "\ea2f";
+@lni-harddrive: "\ea30";
+@lni-game: "\ea31";
+@lni-folder: "\ea32";
+@lni-files: "\ea33";
+@lni-empty-file: "\ea34";
+@lni-download: "\ea35";
+@lni-domain: "\ea36";
+@lni-display: "\ea37";
+@lni-display-alt: "\ea38";
+@lni-database: "\ea39";
+@lni-dashboard: "\ea3a";
+@lni-cut: "\ea3b";
+@lni-control-panel: "\ea3c";
+@lni-cogs: "\ea3d";
+@lni-cog: "\ea3e";
+@lni-code: "\ea3f";
+@lni-code-alt: "\ea40";
+@lni-cloud-upload: "\ea41";
+@lni-cloud-sync: "\ea42";
+@lni-cloud-network: "\ea43";
+@lni-cloud-download: "\ea44";
+@lni-cloud-check: "\ea45";
+@lni-camera: "\ea46";
+@lni-calendar: "\ea47";
+@lni-bulb: "\ea48";
+@lni-bookmark: "\ea49";
+@lni-bookmark-alt: "\ea4a";
+@lni-bluetooth: "\ea4b";
+@lni-ban: "\ea4c";
+@lni-archive: "\ea4d";
+@lni-alarm: "\ea4e";
+@lni-alarm-clock: "\ea4f";
+@lni-add-files: "\ea50";
+@lni-thunder: "\ea51";
+@lni-thunder-alt: "\ea52";
+@lni-sun: "\ea53";
+@lni-rain: "\ea54";
+@lni-night: "\ea55";
+@lni-drop: "\ea56";
+@lni-cloudy-sun: "\ea57";
+@lni-cloud: "\ea58";
+@lni-travel: "\ea59";
+@lni-surf-board: "\ea5a";
+@lni-pyramids: "\ea5b";
+@lni-underline: "\ea5c";
+@lni-text-format: "\ea5d";
+@lni-text-format-remove: "\ea5e";
+@lni-text-align-right: "\ea5f";
+@lni-text-align-left: "\ea60";
+@lni-text-align-justify: "\ea61";
+@lni-text-align-center: "\ea62";
+@lni-strikethrough: "\ea63";
+@lni-spellcheck: "\ea64";
+@lni-sort-amount-dsc: "\ea65";
+@lni-sort-amount-asc: "\ea66";
+@lni-sort-alpha-asc: "\ea67";
+@lni-pilcrow: "\ea68";
+@lni-pagination: "\ea69";
+@lni-page-break: "\ea6a";
+@lni-line-spacing: "\ea6b";
+@lni-line-double: "\ea6c";
+@lni-line-dotted: "\ea6d";
+@lni-line-dashed: "\ea6e";
+@lni-italic: "\ea6f";
+@lni-indent-increase: "\ea70";
+@lni-indent-decrease: "\ea71";
+@lni-bold: "\ea72";
+@lni-spinner: "\ea73";
+@lni-spinner-solid: "\ea74";
+@lni-spinner-arrow: "\ea75";
+@lni-hourglass: "\ea76";
+@lni-tounge: "\ea77";
+@lni-suspect: "\ea78";
+@lni-speechless: "\ea79";
+@lni-smile: "\ea7a";
+@lni-sad: "\ea7b";
+@lni-happy: "\ea7c";
+@lni-friendly: "\ea7d";
+@lni-cool: "\ea7e";
+@lni-thought: "\ea7f";
+@lni-t-shirt: "\ea80";
+@lni-home: "\ea81";
+@lni-gift: "\ea82";
+@lni-cup: "\ea83";
+@lni-crown: "\ea84";
+@lni-briefcase: "\ea85";
+@lni-spray: "\ea86";
+@lni-flags-alt-1: "\ea87";
+@lni-fireworks: "\ea88";
+@lni-candy: "\ea89";
+@lni-candy-cane: "\ea8a";
+@lni-cake: "\ea8b";
+@lni-baloon: "\ea8c";
+@lni-trees: "\ea8d";
+@lni-tree: "\ea8e";
+@lni-sprout: "\ea8f";
+@lni-mushroom: "\ea90";
+@lni-mashroom: "\ea91";
+@lni-leaf: "\ea92";
+@lni-island: "\ea93";
+@lni-flower: "\ea94";
+@lni-bug: "\ea95";
+@lni-volume: "\ea96";
+@lni-volume-mute: "\ea97";
+@lni-volume-medium: "\ea98";
+@lni-volume-low: "\ea99";
+@lni-volume-high: "\ea9a";
+@lni-video: "\ea9b";
+@lni-stop: "\ea9c";
+@lni-shuffle: "\ea9d";
+@lni-play: "\ea9e";
+@lni-pause: "\ea9f";
+@lni-gallery: "\eaa0";
+@lni-full-screen: "\eaa1";
+@lni-frame-expand: "\eaa2";
+@lni-forward: "\eaa3";
+@lni-backward: "\eaa4";
+@lni-target-customer: "\eaa5";
+@lni-seo: "\eaa6";
+@lni-network: "\eaa7";
+@lni-keyword-research: "\eaa8";
+@lni-graph: "\eaa9";
+@lni-bar-chart: "\eaaa";
+@lni-warning: "\eaab";
+@lni-unlock: "\eaac";
+@lni-ticket: "\eaad";
+@lni-ticket-alt: "\eaae";
+@lni-thumbs-up: "\eaaf";
+@lni-thumbs-down: "\eab0";
+@lni-teabag: "\eab1";
+@lni-shield: "\eab2";
+@lni-radio-button: "\eab3";
+@lni-question-circle: "\eab4";
+@lni-protection: "\eab5";
+@lni-power-switch: "\eab6";
+@lni-pointer: "\eab7";
+@lni-plus: "\eab8";
+@lni-music: "\eab9";
+@lni-more: "\eaba";
+@lni-more-alt: "\eabb";
+@lni-minus: "\eabc";
+@lni-lock: "\eabd";
+@lni-lock-alt: "\eabe";
+@lni-list: "\eabf";
+@lni-lifering: "\eac0";
+@lni-key: "\eac1";
+@lni-invention: "\eac2";
+@lni-information: "\eac3";
+@lni-infinite: "\eac4";
+@lni-help: "\eac5";
+@lni-heart: "\eac6";
+@lni-heart-fill: "\eac7";
+@lni-hand: "\eac8";
+@lni-funnel: "\eac9";
+@lni-flag: "\eaca";
+@lni-flag-alt: "\eacb";
+@lni-eye: "\eacc";
+@lni-cross-circle: "\eacd";
+@lni-close: "\eace";
+@lni-circle-plus: "\eacf";
+@lni-circle-minus: "\ead0";
+@lni-checkmark: "\ead1";
+@lni-checkmark-circle: "\ead2";
+@lni-check-box: "\ead3";
+@lni-bolt: "\ead4";
+@lni-bolt-alt: "\ead5";
+@lni-wheelchair: "\ead6";
+@lni-weight: "\ead7";
+@lni-syringe: "\ead8";
+@lni-sthethoscope: "\ead9";
+@lni-slim: "\eada";
+@lni-skipping-rope: "\eadb";
+@lni-pulse: "\eadc";
+@lni-microscope: "\eadd";
+@lni-hospital: "\eade";
+@lni-heart-monitor: "\eadf";
+@lni-first-aid: "\eae0";
+@lni-dumbbell: "\eae1";
+@lni-capsule: "\eae2";
+@lni-basketball: "\eae3";
+@lni-ambulance: "\eae4";
+@lni-service: "\eae5";
+@lni-restaurant: "\eae6";
+@lni-pizza: "\eae7";
+@lni-juice: "\eae8";
+@lni-fresh-juice: "\eae9";
+@lni-dinner: "\eaea";
+@lni-coffee-cup: "\eaeb";
+@lni-chef-hat: "\eaec";
+@lni-burger: "\eaed";
+@lni-write: "\eaee";
+@lni-world: "\eaef";
+@lni-world-alt: "\eaf0";
+@lni-school-bench: "\eaf1";
+@lni-school-bench-alt: "\eaf2";
+@lni-pencil: "\eaf3";
+@lni-pencil-alt: "\eaf4";
+@lni-library: "\eaf5";
+@lni-graduation: "\eaf6";
+@lni-eraser: "\eaf7";
+@lni-compass: "\eaf8";
+@lni-clipboard: "\eaf9";
+@lni-certificate: "\eafa";
+@lni-book: "\eafb";
+@lni-blackboard: "\eafc";
+@lni-shift-right: "\eafd";
+@lni-shift-left: "\eafe";
+@lni-pointer-top: "\eaff";
+@lni-pointer-right: "\eb00";
+@lni-pointer-left: "\eb01";
+@lni-pointer-down: "\eb02";
+@lni-exit: "\eb03";
+@lni-exit-up: "\eb04";
+@lni-exit-down: "\eb05";
+@lni-enter: "\eb06";
+@lni-direction: "\eb07";
+@lni-direction-rtl: "\eb08";
+@lni-direction-ltr: "\eb09";
+@lni-direction-alt: "\eb0a";
+@lni-chevron-up: "\eb0b";
+@lni-chevron-up-circle: "\eb0c";
+@lni-chevron-right: "\eb0d";
+@lni-chevron-right-circle: "\eb0e";
+@lni-chevron-left: "\eb0f";
+@lni-chevron-left-circle: "\eb10";
+@lni-chevron-down: "\eb11";
+@lni-chevron-down-circle: "\eb12";
+@lni-arrows-vertical: "\eb13";
+@lni-arrows-horizontal: "\eb14";
+@lni-arrow-up: "\eb15";
+@lni-arrow-up-circle: "\eb16";
+@lni-arrow-top-right: "\eb17";
+@lni-arrow-top-left: "\eb18";
+@lni-arrow-right: "\eb19";
+@lni-arrow-right-circle: "\eb1a";
+@lni-arrow-left: "\eb1b";
+@lni-arrow-left-circle: "\eb1c";
+@lni-arrow-down: "\eb1d";
+@lni-arrow-down-circle: "\eb1e";
+@lni-angle-double-up: "\eb1f";
+@lni-angle-double-right: "\eb20";
+@lni-angle-double-left: "\eb21";
+@lni-angle-double-down: "\eb22";
+@lni-vector: "\eb23";
+@lni-ux: "\eb24";
+@lni-slice: "\eb25";
+@lni-select-cursor: "\eb26";
+@lni-pallet: "\eb27";
+@lni-move: "\eb28";
+@lni-layout: "\eb29";
+@lni-layers: "\eb2a";
+@lni-highlight: "\eb2b";
+@lni-highlight-alt: "\eb2c";
+@lni-grid: "\eb2d";
+@lni-grid-alt: "\eb2e";
+@lni-crop: "\eb2f";
+@lni-brush: "\eb30";
+@lni-brush-alt: "\eb31";
+@lni-yen: "\eb32";
+@lni-wallet: "\eb33";
+@lni-rupee: "\eb34";
+@lni-pound: "\eb35";
+@lni-money-protection: "\eb36";
+@lni-money-location: "\eb37";
+@lni-euro: "\eb38";
+@lni-dollar: "\eb39";
+@lni-diamond-shape: "\eb3a";
+@lni-diamond-alt: "\eb3b";
+@lni-credit-cards: "\eb3c";
+@lni-coin: "\eb3d";
+@lni-calculator: "\eb3e";
+@lni-calculator-alt: "\eb3f";
+@lni-wheelbarrow: "\eb40";
+@lni-trowel: "\eb41";
+@lni-shovel: "\eb42";
+@lni-ruler: "\eb43";
+@lni-ruler-pencil: "\eb44";
+@lni-ruler-alt: "\eb45";
+@lni-paint-roller: "\eb46";
+@lni-paint-bucket-alt: "\eb47";
+@lni-helmet: "\eb48";
+@lni-hammer: "\eb49";
+@lni-construction: "\eb4a";
+@lni-construction-hammer: "\eb4b";
+@lni-bricks: "\eb4c";
+@lni-train: "\eb4d";
+@lni-train-alt: "\eb4e";
+@lni-taxi: "\eb4f";
+@lni-support: "\eb50";
+@lni-ship: "\eb51";
+@lni-scooter: "\eb52";
+@lni-road: "\eb53";
+@lni-reply: "\eb54";
+@lni-postcard: "\eb55";
+@lni-popup: "\eb56";
+@lni-plane: "\eb57";
+@lni-phone: "\eb58";
+@lni-phone-set: "\eb59";
+@lni-inbox: "\eb5a";
+@lni-helicopter: "\eb5b";
+@lni-envelope: "\eb5c";
+@lni-comments: "\eb5d";
+@lni-comments-reply: "\eb5e";
+@lni-comments-alt-2: "\eb5f";
+@lni-caravan: "\eb60";
+@lni-car: "\eb61";
+@lni-car-alt: "\eb62";
+@lni-bus: "\eb63";
+@lni-bullhorn: "\eb64";
+@lni-bubble: "\eb65";
+@lni-bridge: "\eb66";
+@lni-bi-cycle: "\eb67";
+@lni-anchor: "\eb68";
+@lni-target: "\eb69";
+@lni-target-revenue: "\eb6a";
+@lni-tag: "\eb6b";
+@lni-stats-up: "\eb6c";
+@lni-stats-down: "\eb6d";
+@lni-stamp: "\eb6e";
+@lni-revenue: "\eb6f";
+@lni-quotation: "\eb70";
+@lni-pin: "\eb71";
+@lni-pie-chart: "\eb72";
+@lni-paperclip: "\eb73";
+@lni-offer: "\eb74";
+@lni-notepad: "\eb75";
+@lni-license: "\eb76";
+@lni-investment: "\eb77";
+@lni-invest-monitor: "\eb78";
+@lni-handshake: "\eb79";
+@lni-grow: "\eb7a";
+@lni-delivery: "\eb7b";
+@lni-customer: "\eb7c";
+@lni-consulting: "\eb7d";
+@lni-cart: "\eb7e";
+@lni-cart-full: "\eb7f";
+@lni-briefcase-alt: "\eb80";
+@lni-apartment: "\eb81";
+@lni-agenda: "\eb82";
+@lni-zoom: "\eb83";
+@lni-zapier: "\eb84";
+@lni-youtube: "\eb85";
+@lni-ycombinator: "\eb86";
+@lni-yahoo: "\eb87";
+@lni-xrp: "\eb88";
+@lni-xbox: "\eb89";
+@lni-wordpress: "\eb8a";
+@lni-wordpress-fill: "\eb8b";
+@lni-windows: "\eb8c";
+@lni-whatsapp: "\eb8d";
+@lni-wechat: "\eb8e";
+@lni-webhooks: "\eb8f";
+@lni-vuejs: "\eb90";
+@lni-vs-code: "\eb91";
+@lni-volkswagen: "\eb92";
+@lni-vmware: "\eb93";
+@lni-vk: "\eb94";
+@lni-visa: "\eb95";
+@lni-vimeo: "\eb96";
+@lni-vercel: "\eb97";
+@lni-unsplash: "\eb98";
+@lni-ubuntu: "\eb99";
+@lni-typescript: "\eb9a";
+@lni-twitter: "\eb9b";
+@lni-twitter-original: "\eb9c";
+@lni-twitter-fill: "\eb9d";
+@lni-twitch: "\eb9e";
+@lni-tumblr: "\eb9f";
+@lni-trello: "\eba0";
+@lni-toyota: "\eba1";
+@lni-tiktok: "\eba2";
+@lni-tiktok-alt: "\eba3";
+@lni-tesla: "\eba4";
+@lni-telegram: "\eba5";
+@lni-telegram-original: "\eba6";
+@lni-tailwindcss: "\eba7";
+@lni-swift: "\eba8";
+@lni-svelte: "\eba9";
+@lni-stumbleupon: "\ebaa";
+@lni-stripe: "\ebab";
+@lni-steam: "\ebac";
+@lni-stackoverflow: "\ebad";
+@lni-squarespace: "\ebae";
+@lni-spotify: "\ebaf";
+@lni-spotify-original: "\ebb0";
+@lni-soundcloud: "\ebb1";
+@lni-soundcloud-original: "\ebb2";
+@lni-snapchat: "\ebb3";
+@lni-slideshare: "\ebb4";
+@lni-slack: "\ebb5";
+@lni-slack-line: "\ebb6";
+@lni-skype: "\ebb7";
+@lni-sketch: "\ebb8";
+@lni-signal-app: "\ebb9";
+@lni-shopify: "\ebba";
+@lni-safari: "\ebbb";
+@lni-reddit: "\ebbc";
+@lni-react: "\ebbd";
+@lni-quora: "\ebbe";
+@lni-python: "\ebbf";
+@lni-producthunt: "\ebc0";
+@lni-postman: "\ebc1";
+@lni-postgresql: "\ebc2";
+@lni-playstation: "\ebc3";
+@lni-play-store: "\ebc4";
+@lni-play-store-fill: "\ebc5";
+@lni-play-store-alt: "\ebc6";
+@lni-pinterest: "\ebc7";
+@lni-php: "\ebc8";
+@lni-paypal: "\ebc9";
+@lni-paypal-original: "\ebca";
+@lni-patreon: "\ebcb";
+@lni-paddle: "\ebcc";
+@lni-opera: "\ebcd";
+@lni-oculus: "\ebce";
+@lni-npm: "\ebcf";
+@lni-notion: "\ebd0";
+@lni-nodejs: "\ebd1";
+@lni-nodejs-alt: "\ebd2";
+@lni-nissan: "\ebd3";
+@lni-nextjs: "\ebd4";
+@lni-netlify: "\ebd5";
+@lni-netflix: "\ebd6";
+@lni-mysql: "\ebd7";
+@lni-mongodb: "\ebd8";
+@lni-microsoft: "\ebd9";
+@lni-microsoft-teams: "\ebda";
+@lni-microsoft-edge: "\ebdb";
+@lni-meta: "\ebdc";
+@lni-meta-2: "\ebdd";
+@lni-meta-1: "\ebde";
+@lni-mercedes: "\ebdf";
+@lni-medium: "\ebe0";
+@lni-medium-alt: "\ebe1";
+@lni-mastercard: "\ebe2";
+@lni-markdown: "\ebe3";
+@lni-mailchimp: "\ebe4";
+@lni-magento: "\ebe5";
+@lni-linkedin: "\ebe6";
+@lni-linkedin-original: "\ebe7";
+@lni-lineicons: "\ebe8";
+@lni-lineicons-symbol: "\ebe9";
+@lni-lineicons-symbol-alt: "\ebea";
+@lni-lineicons-symbol-alt-2: "\ebeb";
+@lni-lineicons-alt: "\ebec";
+@lni-line: "\ebed";
+@lni-laravel: "\ebee";
+@lni-kubernetes: "\ebef";
+@lni-jsfiddle: "\ebf0";
+@lni-joomla: "\ebf1";
+@lni-joomla-original: "\ebf2";
+@lni-jcb: "\ebf3";
+@lni-javascript: "\ebf4";
+@lni-java: "\ebf5";
+@lni-jamstack: "\ebf6";
+@lni-jaguar: "\ebf7";
+@lni-ios: "\ebf8";
+@lni-instagram: "\ebf9";
+@lni-instagram-original: "\ebfa";
+@lni-instagram-fill: "\ebfb";
+@lni-imdb: "\ebfc";
+@lni-html5: "\ebfd";
+@lni-hacker-news: "\ebfe";
+@lni-grammarly: "\ebff";
+@lni-google: "\ec00";
+@lni-google-wallet: "\ec01";
+@lni-google-pay: "\ec02";
+@lni-google-drive: "\ec03";
+@lni-google-cloud: "\ec04";
+@lni-google-meet: "\ec05";
+@lni-goodreads: "\ec06";
+@lni-go: "\ec07";
+@lni-github: "\ec08";
+@lni-github-original: "\ec09";
+@lni-git: "\ec0a";
+@lni-gatsby: "\ec0b";
+@lni-ford: "\ec0c";
+@lni-flutter: "\ec0d";
+@lni-flickr: "\ec0e";
+@lni-fitbit: "\ec0f";
+@lni-firefox: "\ec10";
+@lni-firefox-original: "\ec11";
+@lni-firebase: "\ec12";
+@lni-figma: "\ec13";
+@lni-facetime: "\ec14";
+@lni-facebook: "\ec15";
+@lni-facebook-oval: "\ec16";
+@lni-facebook-original: "\ec17";
+@lni-facebook-messenger: "\ec18";
+@lni-facebook-line: "\ec19";
+@lni-facebook-fill: "\ec1a";
+@lni-ethereum: "\ec1b";
+@lni-envato: "\ec1c";
+@lni-edge: "\ec1d";
+@lni-drupal: "\ec1e";
+@lni-drupal-original: "\ec1f";
+@lni-dropbox: "\ec20";
+@lni-dropbox-original: "\ec21";
+@lni-dribbble: "\ec22";
+@lni-docker: "\ec23";
+@lni-discover: "\ec24";
+@lni-discord: "\ec25";
+@lni-discord-alt: "\ec26";
+@lni-diners-club: "\ec27";
+@lni-digitalocean: "\ec28";
+@lni-dialogflow: "\ec29";
+@lni-dev: "\ec2a";
+@lni-css3: "\ec2b";
+@lni-creative-commons: "\ec2c";
+@lni-cpanel: "\ec2d";
+@lni-coral: "\ec2e";
+@lni-connectdevelop: "\ec2f";
+@lni-coinbase: "\ec30";
+@lni-codepen: "\ec31";
+@lni-cloudflare: "\ec32";
+@lni-cisco: "\ec33";
+@lni-chromecast: "\ec34";
+@lni-chrome: "\ec35";
+@lni-cash-app: "\ec36";
+@lni-btc: "\ec37";
+@lni-brave: "\ec38";
+@lni-bootstrap: "\ec39";
+@lni-bootstrap-5: "\ec3a";
+@lni-bmw: "\ec3b";
+@lni-bluetooth-original: "\ec3c";
+@lni-blogger: "\ec3d";
+@lni-bittorrent: "\ec3e";
+@lni-bitcoin: "\ec3f";
+@lni-bitbucket: "\ec40";
+@lni-behance: "\ec41";
+@lni-behance-original: "\ec42";
+@lni-azure: "\ec43";
+@lni-aws: "\ec44";
+@lni-audi: "\ec45";
+@lni-atlassian: "\ec46";
+@lni-apple-pay: "\ec47";
+@lni-apple-music: "\ec48";
+@lni-apple-brand: "\ec49";
+@lni-app-store: "\ec4a";
+@lni-angular: "\ec4b";
+@lni-angellist: "\ec4c";
+@lni-android: "\ec4d";
+@lni-android-original: "\ec4e";
+@lni-amex: "\ec4f";
+@lni-amazon: "\ec50";
+@lni-amazon-pay: "\ec51";
+@lni-amazon-original: "\ec52";
+@lni-airtable: "\ec53";
+@lni-airbnb: "\ec54";
+@lni-adobe: "\ec55";
+@lni-500px: "\ec56";
+
+.lni-zoom-out::before {
+  content: @lni-zoom-out;
+}
+
+.lni-zoom-in::before {
+  content: @lni-zoom-in;
+}
+
+.lni-zip::before {
+  content: @lni-zip;
+}
+
+.lni-website::before {
+  content: @lni-website;
+}
+
+.lni-website-alt::before {
+  content: @lni-website-alt;
+}
+
+.lni-users::before {
+  content: @lni-users;
+}
+
+.lni-user::before {
+  content: @lni-user;
+}
+
+.lni-upload::before {
+  content: @lni-upload;
+}
+
+.lni-unlink::before {
+  content: @lni-unlink;
+}
+
+.lni-trash-can::before {
+  content: @lni-trash-can;
+}
+
+.lni-timer::before {
+  content: @lni-timer;
+}
+
+.lni-tab::before {
+  content: @lni-tab;
+}
+
+.lni-star-half::before {
+  content: @lni-star-half;
+}
+
+.lni-star-fill::before {
+  content: @lni-star-fill;
+}
+
+.lni-star-empty::before {
+  content: @lni-star-empty;
+}
+
+.lni-signal::before {
+  content: @lni-signal;
+}
+
+.lni-shortcode::before {
+  content: @lni-shortcode;
+}
+
+.lni-shopping-basket::before {
+  content: @lni-shopping-basket;
+}
+
+.lni-share::before {
+  content: @lni-share;
+}
+
+.lni-share-alt::before {
+  content: @lni-share-alt;
+}
+
+.lni-search::before {
+  content: @lni-search;
+}
+
+.lni-search-alt::before {
+  content: @lni-search-alt;
+}
+
+.lni-scroll-down::before {
+  content: @lni-scroll-down;
+}
+
+.lni-save::before {
+  content: @lni-save;
+}
+
+.lni-rss-feed::before {
+  content: @lni-rss-feed;
+}
+
+.lni-rocket::before {
+  content: @lni-rocket;
+}
+
+.lni-remove-file::before {
+  content: @lni-remove-file;
+}
+
+.lni-reload::before {
+  content: @lni-reload;
+}
+
+.lni-printer::before {
+  content: @lni-printer;
+}
+
+.lni-plug::before {
+  content: @lni-plug;
+}
+
+.lni-package::before {
+  content: @lni-package;
+}
+
+.lni-mouse::before {
+  content: @lni-mouse;
+}
+
+.lni-mobile::before {
+  content: @lni-mobile;
+}
+
+.lni-microphone::before {
+  content: @lni-microphone;
+}
+
+.lni-mic::before {
+  content: @lni-mic;
+}
+
+.lni-menu::before {
+  content: @lni-menu;
+}
+
+.lni-map::before {
+  content: @lni-map;
+}
+
+.lni-map-marker::before {
+  content: @lni-map-marker;
+}
+
+.lni-magnifier::before {
+  content: @lni-magnifier;
+}
+
+.lni-magnet::before {
+  content: @lni-magnet;
+}
+
+.lni-link::before {
+  content: @lni-link;
+}
+
+.lni-laptop::before {
+  content: @lni-laptop;
+}
+
+.lni-laptop-phone::before {
+  content: @lni-laptop-phone;
+}
+
+.lni-keyboard::before {
+  content: @lni-keyboard;
+}
+
+.lni-image::before {
+  content: @lni-image;
+}
+
+.lni-headphone::before {
+  content: @lni-headphone;
+}
+
+.lni-harddrive::before {
+  content: @lni-harddrive;
+}
+
+.lni-game::before {
+  content: @lni-game;
+}
+
+.lni-folder::before {
+  content: @lni-folder;
+}
+
+.lni-files::before {
+  content: @lni-files;
+}
+
+.lni-empty-file::before {
+  content: @lni-empty-file;
+}
+
+.lni-download::before {
+  content: @lni-download;
+}
+
+.lni-domain::before {
+  content: @lni-domain;
+}
+
+.lni-display::before {
+  content: @lni-display;
+}
+
+.lni-display-alt::before {
+  content: @lni-display-alt;
+}
+
+.lni-database::before {
+  content: @lni-database;
+}
+
+.lni-dashboard::before {
+  content: @lni-dashboard;
+}
+
+.lni-cut::before {
+  content: @lni-cut;
+}
+
+.lni-control-panel::before {
+  content: @lni-control-panel;
+}
+
+.lni-cogs::before {
+  content: @lni-cogs;
+}
+
+.lni-cog::before {
+  content: @lni-cog;
+}
+
+.lni-code::before {
+  content: @lni-code;
+}
+
+.lni-code-alt::before {
+  content: @lni-code-alt;
+}
+
+.lni-cloud-upload::before {
+  content: @lni-cloud-upload;
+}
+
+.lni-cloud-sync::before {
+  content: @lni-cloud-sync;
+}
+
+.lni-cloud-network::before {
+  content: @lni-cloud-network;
+}
+
+.lni-cloud-download::before {
+  content: @lni-cloud-download;
+}
+
+.lni-cloud-check::before {
+  content: @lni-cloud-check;
+}
+
+.lni-camera::before {
+  content: @lni-camera;
+}
+
+.lni-calendar::before {
+  content: @lni-calendar;
+}
+
+.lni-bulb::before {
+  content: @lni-bulb;
+}
+
+.lni-bookmark::before {
+  content: @lni-bookmark;
+}
+
+.lni-bookmark-alt::before {
+  content: @lni-bookmark-alt;
+}
+
+.lni-bluetooth::before {
+  content: @lni-bluetooth;
+}
+
+.lni-ban::before {
+  content: @lni-ban;
+}
+
+.lni-archive::before {
+  content: @lni-archive;
+}
+
+.lni-alarm::before {
+  content: @lni-alarm;
+}
+
+.lni-alarm-clock::before {
+  content: @lni-alarm-clock;
+}
+
+.lni-add-files::before {
+  content: @lni-add-files;
+}
+
+.lni-thunder::before {
+  content: @lni-thunder;
+}
+
+.lni-thunder-alt::before {
+  content: @lni-thunder-alt;
+}
+
+.lni-sun::before {
+  content: @lni-sun;
+}
+
+.lni-rain::before {
+  content: @lni-rain;
+}
+
+.lni-night::before {
+  content: @lni-night;
+}
+
+.lni-drop::before {
+  content: @lni-drop;
+}
+
+.lni-cloudy-sun::before {
+  content: @lni-cloudy-sun;
+}
+
+.lni-cloud::before {
+  content: @lni-cloud;
+}
+
+.lni-travel::before {
+  content: @lni-travel;
+}
+
+.lni-surf-board::before {
+  content: @lni-surf-board;
+}
+
+.lni-pyramids::before {
+  content: @lni-pyramids;
+}
+
+.lni-underline::before {
+  content: @lni-underline;
+}
+
+.lni-text-format::before {
+  content: @lni-text-format;
+}
+
+.lni-text-format-remove::before {
+  content: @lni-text-format-remove;
+}
+
+.lni-text-align-right::before {
+  content: @lni-text-align-right;
+}
+
+.lni-text-align-left::before {
+  content: @lni-text-align-left;
+}
+
+.lni-text-align-justify::before {
+  content: @lni-text-align-justify;
+}
+
+.lni-text-align-center::before {
+  content: @lni-text-align-center;
+}
+
+.lni-strikethrough::before {
+  content: @lni-strikethrough;
+}
+
+.lni-spellcheck::before {
+  content: @lni-spellcheck;
+}
+
+.lni-sort-amount-dsc::before {
+  content: @lni-sort-amount-dsc;
+}
+
+.lni-sort-amount-asc::before {
+  content: @lni-sort-amount-asc;
+}
+
+.lni-sort-alpha-asc::before {
+  content: @lni-sort-alpha-asc;
+}
+
+.lni-pilcrow::before {
+  content: @lni-pilcrow;
+}
+
+.lni-pagination::before {
+  content: @lni-pagination;
+}
+
+.lni-page-break::before {
+  content: @lni-page-break;
+}
+
+.lni-line-spacing::before {
+  content: @lni-line-spacing;
+}
+
+.lni-line-double::before {
+  content: @lni-line-double;
+}
+
+.lni-line-dotted::before {
+  content: @lni-line-dotted;
+}
+
+.lni-line-dashed::before {
+  content: @lni-line-dashed;
+}
+
+.lni-italic::before {
+  content: @lni-italic;
+}
+
+.lni-indent-increase::before {
+  content: @lni-indent-increase;
+}
+
+.lni-indent-decrease::before {
+  content: @lni-indent-decrease;
+}
+
+.lni-bold::before {
+  content: @lni-bold;
+}
+
+.lni-spinner::before {
+  content: @lni-spinner;
+}
+
+.lni-spinner-solid::before {
+  content: @lni-spinner-solid;
+}
+
+.lni-spinner-arrow::before {
+  content: @lni-spinner-arrow;
+}
+
+.lni-hourglass::before {
+  content: @lni-hourglass;
+}
+
+.lni-tounge::before {
+  content: @lni-tounge;
+}
+
+.lni-suspect::before {
+  content: @lni-suspect;
+}
+
+.lni-speechless::before {
+  content: @lni-speechless;
+}
+
+.lni-smile::before {
+  content: @lni-smile;
+}
+
+.lni-sad::before {
+  content: @lni-sad;
+}
+
+.lni-happy::before {
+  content: @lni-happy;
+}
+
+.lni-friendly::before {
+  content: @lni-friendly;
+}
+
+.lni-cool::before {
+  content: @lni-cool;
+}
+
+.lni-thought::before {
+  content: @lni-thought;
+}
+
+.lni-t-shirt::before {
+  content: @lni-t-shirt;
+}
+
+.lni-home::before {
+  content: @lni-home;
+}
+
+.lni-gift::before {
+  content: @lni-gift;
+}
+
+.lni-cup::before {
+  content: @lni-cup;
+}
+
+.lni-crown::before {
+  content: @lni-crown;
+}
+
+.lni-briefcase::before {
+  content: @lni-briefcase;
+}
+
+.lni-spray::before {
+  content: @lni-spray;
+}
+
+.lni-flags-alt-1::before {
+  content: @lni-flags-alt-1;
+}
+
+.lni-fireworks::before {
+  content: @lni-fireworks;
+}
+
+.lni-candy::before {
+  content: @lni-candy;
+}
+
+.lni-candy-cane::before {
+  content: @lni-candy-cane;
+}
+
+.lni-cake::before {
+  content: @lni-cake;
+}
+
+.lni-baloon::before {
+  content: @lni-baloon;
+}
+
+.lni-trees::before {
+  content: @lni-trees;
+}
+
+.lni-tree::before {
+  content: @lni-tree;
+}
+
+.lni-sprout::before {
+  content: @lni-sprout;
+}
+
+.lni-mushroom::before {
+  content: @lni-mushroom;
+}
+
+.lni-mashroom::before {
+  content: @lni-mashroom;
+}
+
+.lni-leaf::before {
+  content: @lni-leaf;
+}
+
+.lni-island::before {
+  content: @lni-island;
+}
+
+.lni-flower::before {
+  content: @lni-flower;
+}
+
+.lni-bug::before {
+  content: @lni-bug;
+}
+
+.lni-volume::before {
+  content: @lni-volume;
+}
+
+.lni-volume-mute::before {
+  content: @lni-volume-mute;
+}
+
+.lni-volume-medium::before {
+  content: @lni-volume-medium;
+}
+
+.lni-volume-low::before {
+  content: @lni-volume-low;
+}
+
+.lni-volume-high::before {
+  content: @lni-volume-high;
+}
+
+.lni-video::before {
+  content: @lni-video;
+}
+
+.lni-stop::before {
+  content: @lni-stop;
+}
+
+.lni-shuffle::before {
+  content: @lni-shuffle;
+}
+
+.lni-play::before {
+  content: @lni-play;
+}
+
+.lni-pause::before {
+  content: @lni-pause;
+}
+
+.lni-gallery::before {
+  content: @lni-gallery;
+}
+
+.lni-full-screen::before {
+  content: @lni-full-screen;
+}
+
+.lni-frame-expand::before {
+  content: @lni-frame-expand;
+}
+
+.lni-forward::before {
+  content: @lni-forward;
+}
+
+.lni-backward::before {
+  content: @lni-backward;
+}
+
+.lni-target-customer::before {
+  content: @lni-target-customer;
+}
+
+.lni-seo::before {
+  content: @lni-seo;
+}
+
+.lni-network::before {
+  content: @lni-network;
+}
+
+.lni-keyword-research::before {
+  content: @lni-keyword-research;
+}
+
+.lni-graph::before {
+  content: @lni-graph;
+}
+
+.lni-bar-chart::before {
+  content: @lni-bar-chart;
+}
+
+.lni-warning::before {
+  content: @lni-warning;
+}
+
+.lni-unlock::before {
+  content: @lni-unlock;
+}
+
+.lni-ticket::before {
+  content: @lni-ticket;
+}
+
+.lni-ticket-alt::before {
+  content: @lni-ticket-alt;
+}
+
+.lni-thumbs-up::before {
+  content: @lni-thumbs-up;
+}
+
+.lni-thumbs-down::before {
+  content: @lni-thumbs-down;
+}
+
+.lni-teabag::before {
+  content: @lni-teabag;
+}
+
+.lni-shield::before {
+  content: @lni-shield;
+}
+
+.lni-radio-button::before {
+  content: @lni-radio-button;
+}
+
+.lni-question-circle::before {
+  content: @lni-question-circle;
+}
+
+.lni-protection::before {
+  content: @lni-protection;
+}
+
+.lni-power-switch::before {
+  content: @lni-power-switch;
+}
+
+.lni-pointer::before {
+  content: @lni-pointer;
+}
+
+.lni-plus::before {
+  content: @lni-plus;
+}
+
+.lni-music::before {
+  content: @lni-music;
+}
+
+.lni-more::before {
+  content: @lni-more;
+}
+
+.lni-more-alt::before {
+  content: @lni-more-alt;
+}
+
+.lni-minus::before {
+  content: @lni-minus;
+}
+
+.lni-lock::before {
+  content: @lni-lock;
+}
+
+.lni-lock-alt::before {
+  content: @lni-lock-alt;
+}
+
+.lni-list::before {
+  content: @lni-list;
+}
+
+.lni-lifering::before {
+  content: @lni-lifering;
+}
+
+.lni-key::before {
+  content: @lni-key;
+}
+
+.lni-invention::before {
+  content: @lni-invention;
+}
+
+.lni-information::before {
+  content: @lni-information;
+}
+
+.lni-infinite::before {
+  content: @lni-infinite;
+}
+
+.lni-help::before {
+  content: @lni-help;
+}
+
+.lni-heart::before {
+  content: @lni-heart;
+}
+
+.lni-heart-fill::before {
+  content: @lni-heart-fill;
+}
+
+.lni-hand::before {
+  content: @lni-hand;
+}
+
+.lni-funnel::before {
+  content: @lni-funnel;
+}
+
+.lni-flag::before {
+  content: @lni-flag;
+}
+
+.lni-flag-alt::before {
+  content: @lni-flag-alt;
+}
+
+.lni-eye::before {
+  content: @lni-eye;
+}
+
+.lni-cross-circle::before {
+  content: @lni-cross-circle;
+}
+
+.lni-close::before {
+  content: @lni-close;
+}
+
+.lni-circle-plus::before {
+  content: @lni-circle-plus;
+}
+
+.lni-circle-minus::before {
+  content: @lni-circle-minus;
+}
+
+.lni-checkmark::before {
+  content: @lni-checkmark;
+}
+
+.lni-checkmark-circle::before {
+  content: @lni-checkmark-circle;
+}
+
+.lni-check-box::before {
+  content: @lni-check-box;
+}
+
+.lni-bolt::before {
+  content: @lni-bolt;
+}
+
+.lni-bolt-alt::before {
+  content: @lni-bolt-alt;
+}
+
+.lni-wheelchair::before {
+  content: @lni-wheelchair;
+}
+
+.lni-weight::before {
+  content: @lni-weight;
+}
+
+.lni-syringe::before {
+  content: @lni-syringe;
+}
+
+.lni-sthethoscope::before {
+  content: @lni-sthethoscope;
+}
+
+.lni-slim::before {
+  content: @lni-slim;
+}
+
+.lni-skipping-rope::before {
+  content: @lni-skipping-rope;
+}
+
+.lni-pulse::before {
+  content: @lni-pulse;
+}
+
+.lni-microscope::before {
+  content: @lni-microscope;
+}
+
+.lni-hospital::before {
+  content: @lni-hospital;
+}
+
+.lni-heart-monitor::before {
+  content: @lni-heart-monitor;
+}
+
+.lni-first-aid::before {
+  content: @lni-first-aid;
+}
+
+.lni-dumbbell::before {
+  content: @lni-dumbbell;
+}
+
+.lni-capsule::before {
+  content: @lni-capsule;
+}
+
+.lni-basketball::before {
+  content: @lni-basketball;
+}
+
+.lni-ambulance::before {
+  content: @lni-ambulance;
+}
+
+.lni-service::before {
+  content: @lni-service;
+}
+
+.lni-restaurant::before {
+  content: @lni-restaurant;
+}
+
+.lni-pizza::before {
+  content: @lni-pizza;
+}
+
+.lni-juice::before {
+  content: @lni-juice;
+}
+
+.lni-fresh-juice::before {
+  content: @lni-fresh-juice;
+}
+
+.lni-dinner::before {
+  content: @lni-dinner;
+}
+
+.lni-coffee-cup::before {
+  content: @lni-coffee-cup;
+}
+
+.lni-chef-hat::before {
+  content: @lni-chef-hat;
+}
+
+.lni-burger::before {
+  content: @lni-burger;
+}
+
+.lni-write::before {
+  content: @lni-write;
+}
+
+.lni-world::before {
+  content: @lni-world;
+}
+
+.lni-world-alt::before {
+  content: @lni-world-alt;
+}
+
+.lni-school-bench::before {
+  content: @lni-school-bench;
+}
+
+.lni-school-bench-alt::before {
+  content: @lni-school-bench-alt;
+}
+
+.lni-pencil::before {
+  content: @lni-pencil;
+}
+
+.lni-pencil-alt::before {
+  content: @lni-pencil-alt;
+}
+
+.lni-library::before {
+  content: @lni-library;
+}
+
+.lni-graduation::before {
+  content: @lni-graduation;
+}
+
+.lni-eraser::before {
+  content: @lni-eraser;
+}
+
+.lni-compass::before {
+  content: @lni-compass;
+}
+
+.lni-clipboard::before {
+  content: @lni-clipboard;
+}
+
+.lni-certificate::before {
+  content: @lni-certificate;
+}
+
+.lni-book::before {
+  content: @lni-book;
+}
+
+.lni-blackboard::before {
+  content: @lni-blackboard;
+}
+
+.lni-shift-right::before {
+  content: @lni-shift-right;
+}
+
+.lni-shift-left::before {
+  content: @lni-shift-left;
+}
+
+.lni-pointer-top::before {
+  content: @lni-pointer-top;
+}
+
+.lni-pointer-right::before {
+  content: @lni-pointer-right;
+}
+
+.lni-pointer-left::before {
+  content: @lni-pointer-left;
+}
+
+.lni-pointer-down::before {
+  content: @lni-pointer-down;
+}
+
+.lni-exit::before {
+  content: @lni-exit;
+}
+
+.lni-exit-up::before {
+  content: @lni-exit-up;
+}
+
+.lni-exit-down::before {
+  content: @lni-exit-down;
+}
+
+.lni-enter::before {
+  content: @lni-enter;
+}
+
+.lni-direction::before {
+  content: @lni-direction;
+}
+
+.lni-direction-rtl::before {
+  content: @lni-direction-rtl;
+}
+
+.lni-direction-ltr::before {
+  content: @lni-direction-ltr;
+}
+
+.lni-direction-alt::before {
+  content: @lni-direction-alt;
+}
+
+.lni-chevron-up::before {
+  content: @lni-chevron-up;
+}
+
+.lni-chevron-up-circle::before {
+  content: @lni-chevron-up-circle;
+}
+
+.lni-chevron-right::before {
+  content: @lni-chevron-right;
+}
+
+.lni-chevron-right-circle::before {
+  content: @lni-chevron-right-circle;
+}
+
+.lni-chevron-left::before {
+  content: @lni-chevron-left;
+}
+
+.lni-chevron-left-circle::before {
+  content: @lni-chevron-left-circle;
+}
+
+.lni-chevron-down::before {
+  content: @lni-chevron-down;
+}
+
+.lni-chevron-down-circle::before {
+  content: @lni-chevron-down-circle;
+}
+
+.lni-arrows-vertical::before {
+  content: @lni-arrows-vertical;
+}
+
+.lni-arrows-horizontal::before {
+  content: @lni-arrows-horizontal;
+}
+
+.lni-arrow-up::before {
+  content: @lni-arrow-up;
+}
+
+.lni-arrow-up-circle::before {
+  content: @lni-arrow-up-circle;
+}
+
+.lni-arrow-top-right::before {
+  content: @lni-arrow-top-right;
+}
+
+.lni-arrow-top-left::before {
+  content: @lni-arrow-top-left;
+}
+
+.lni-arrow-right::before {
+  content: @lni-arrow-right;
+}
+
+.lni-arrow-right-circle::before {
+  content: @lni-arrow-right-circle;
+}
+
+.lni-arrow-left::before {
+  content: @lni-arrow-left;
+}
+
+.lni-arrow-left-circle::before {
+  content: @lni-arrow-left-circle;
+}
+
+.lni-arrow-down::before {
+  content: @lni-arrow-down;
+}
+
+.lni-arrow-down-circle::before {
+  content: @lni-arrow-down-circle;
+}
+
+.lni-angle-double-up::before {
+  content: @lni-angle-double-up;
+}
+
+.lni-angle-double-right::before {
+  content: @lni-angle-double-right;
+}
+
+.lni-angle-double-left::before {
+  content: @lni-angle-double-left;
+}
+
+.lni-angle-double-down::before {
+  content: @lni-angle-double-down;
+}
+
+.lni-vector::before {
+  content: @lni-vector;
+}
+
+.lni-ux::before {
+  content: @lni-ux;
+}
+
+.lni-slice::before {
+  content: @lni-slice;
+}
+
+.lni-select-cursor::before {
+  content: @lni-select-cursor;
+}
+
+.lni-pallet::before {
+  content: @lni-pallet;
+}
+
+.lni-move::before {
+  content: @lni-move;
+}
+
+.lni-layout::before {
+  content: @lni-layout;
+}
+
+.lni-layers::before {
+  content: @lni-layers;
+}
+
+.lni-highlight::before {
+  content: @lni-highlight;
+}
+
+.lni-highlight-alt::before {
+  content: @lni-highlight-alt;
+}
+
+.lni-grid::before {
+  content: @lni-grid;
+}
+
+.lni-grid-alt::before {
+  content: @lni-grid-alt;
+}
+
+.lni-crop::before {
+  content: @lni-crop;
+}
+
+.lni-brush::before {
+  content: @lni-brush;
+}
+
+.lni-brush-alt::before {
+  content: @lni-brush-alt;
+}
+
+.lni-yen::before {
+  content: @lni-yen;
+}
+
+.lni-wallet::before {
+  content: @lni-wallet;
+}
+
+.lni-rupee::before {
+  content: @lni-rupee;
+}
+
+.lni-pound::before {
+  content: @lni-pound;
+}
+
+.lni-money-protection::before {
+  content: @lni-money-protection;
+}
+
+.lni-money-location::before {
+  content: @lni-money-location;
+}
+
+.lni-euro::before {
+  content: @lni-euro;
+}
+
+.lni-dollar::before {
+  content: @lni-dollar;
+}
+
+.lni-diamond-shape::before {
+  content: @lni-diamond-shape;
+}
+
+.lni-diamond-alt::before {
+  content: @lni-diamond-alt;
+}
+
+.lni-credit-cards::before {
+  content: @lni-credit-cards;
+}
+
+.lni-coin::before {
+  content: @lni-coin;
+}
+
+.lni-calculator::before {
+  content: @lni-calculator;
+}
+
+.lni-calculator-alt::before {
+  content: @lni-calculator-alt;
+}
+
+.lni-wheelbarrow::before {
+  content: @lni-wheelbarrow;
+}
+
+.lni-trowel::before {
+  content: @lni-trowel;
+}
+
+.lni-shovel::before {
+  content: @lni-shovel;
+}
+
+.lni-ruler::before {
+  content: @lni-ruler;
+}
+
+.lni-ruler-pencil::before {
+  content: @lni-ruler-pencil;
+}
+
+.lni-ruler-alt::before {
+  content: @lni-ruler-alt;
+}
+
+.lni-paint-roller::before {
+  content: @lni-paint-roller;
+}
+
+.lni-paint-bucket-alt::before {
+  content: @lni-paint-bucket-alt;
+}
+
+.lni-helmet::before {
+  content: @lni-helmet;
+}
+
+.lni-hammer::before {
+  content: @lni-hammer;
+}
+
+.lni-construction::before {
+  content: @lni-construction;
+}
+
+.lni-construction-hammer::before {
+  content: @lni-construction-hammer;
+}
+
+.lni-bricks::before {
+  content: @lni-bricks;
+}
+
+.lni-train::before {
+  content: @lni-train;
+}
+
+.lni-train-alt::before {
+  content: @lni-train-alt;
+}
+
+.lni-taxi::before {
+  content: @lni-taxi;
+}
+
+.lni-support::before {
+  content: @lni-support;
+}
+
+.lni-ship::before {
+  content: @lni-ship;
+}
+
+.lni-scooter::before {
+  content: @lni-scooter;
+}
+
+.lni-road::before {
+  content: @lni-road;
+}
+
+.lni-reply::before {
+  content: @lni-reply;
+}
+
+.lni-postcard::before {
+  content: @lni-postcard;
+}
+
+.lni-popup::before {
+  content: @lni-popup;
+}
+
+.lni-plane::before {
+  content: @lni-plane;
+}
+
+.lni-phone::before {
+  content: @lni-phone;
+}
+
+.lni-phone-set::before {
+  content: @lni-phone-set;
+}
+
+.lni-inbox::before {
+  content: @lni-inbox;
+}
+
+.lni-helicopter::before {
+  content: @lni-helicopter;
+}
+
+.lni-envelope::before {
+  content: @lni-envelope;
+}
+
+.lni-comments::before {
+  content: @lni-comments;
+}
+
+.lni-comments-reply::before {
+  content: @lni-comments-reply;
+}
+
+.lni-comments-alt-2::before {
+  content: @lni-comments-alt-2;
+}
+
+.lni-caravan::before {
+  content: @lni-caravan;
+}
+
+.lni-car::before {
+  content: @lni-car;
+}
+
+.lni-car-alt::before {
+  content: @lni-car-alt;
+}
+
+.lni-bus::before {
+  content: @lni-bus;
+}
+
+.lni-bullhorn::before {
+  content: @lni-bullhorn;
+}
+
+.lni-bubble::before {
+  content: @lni-bubble;
+}
+
+.lni-bridge::before {
+  content: @lni-bridge;
+}
+
+.lni-bi-cycle::before {
+  content: @lni-bi-cycle;
+}
+
+.lni-anchor::before {
+  content: @lni-anchor;
+}
+
+.lni-target::before {
+  content: @lni-target;
+}
+
+.lni-target-revenue::before {
+  content: @lni-target-revenue;
+}
+
+.lni-tag::before {
+  content: @lni-tag;
+}
+
+.lni-stats-up::before {
+  content: @lni-stats-up;
+}
+
+.lni-stats-down::before {
+  content: @lni-stats-down;
+}
+
+.lni-stamp::before {
+  content: @lni-stamp;
+}
+
+.lni-revenue::before {
+  content: @lni-revenue;
+}
+
+.lni-quotation::before {
+  content: @lni-quotation;
+}
+
+.lni-pin::before {
+  content: @lni-pin;
+}
+
+.lni-pie-chart::before {
+  content: @lni-pie-chart;
+}
+
+.lni-paperclip::before {
+  content: @lni-paperclip;
+}
+
+.lni-offer::before {
+  content: @lni-offer;
+}
+
+.lni-notepad::before {
+  content: @lni-notepad;
+}
+
+.lni-license::before {
+  content: @lni-license;
+}
+
+.lni-investment::before {
+  content: @lni-investment;
+}
+
+.lni-invest-monitor::before {
+  content: @lni-invest-monitor;
+}
+
+.lni-handshake::before {
+  content: @lni-handshake;
+}
+
+.lni-grow::before {
+  content: @lni-grow;
+}
+
+.lni-delivery::before {
+  content: @lni-delivery;
+}
+
+.lni-customer::before {
+  content: @lni-customer;
+}
+
+.lni-consulting::before {
+  content: @lni-consulting;
+}
+
+.lni-cart::before {
+  content: @lni-cart;
+}
+
+.lni-cart-full::before {
+  content: @lni-cart-full;
+}
+
+.lni-briefcase-alt::before {
+  content: @lni-briefcase-alt;
+}
+
+.lni-apartment::before {
+  content: @lni-apartment;
+}
+
+.lni-agenda::before {
+  content: @lni-agenda;
+}
+
+.lni-zoom::before {
+  content: @lni-zoom;
+}
+
+.lni-zapier::before {
+  content: @lni-zapier;
+}
+
+.lni-youtube::before {
+  content: @lni-youtube;
+}
+
+.lni-ycombinator::before {
+  content: @lni-ycombinator;
+}
+
+.lni-yahoo::before {
+  content: @lni-yahoo;
+}
+
+.lni-xrp::before {
+  content: @lni-xrp;
+}
+
+.lni-xbox::before {
+  content: @lni-xbox;
+}
+
+.lni-wordpress::before {
+  content: @lni-wordpress;
+}
+
+.lni-wordpress-fill::before {
+  content: @lni-wordpress-fill;
+}
+
+.lni-windows::before {
+  content: @lni-windows;
+}
+
+.lni-whatsapp::before {
+  content: @lni-whatsapp;
+}
+
+.lni-wechat::before {
+  content: @lni-wechat;
+}
+
+.lni-webhooks::before {
+  content: @lni-webhooks;
+}
+
+.lni-vuejs::before {
+  content: @lni-vuejs;
+}
+
+.lni-vs-code::before {
+  content: @lni-vs-code;
+}
+
+.lni-volkswagen::before {
+  content: @lni-volkswagen;
+}
+
+.lni-vmware::before {
+  content: @lni-vmware;
+}
+
+.lni-vk::before {
+  content: @lni-vk;
+}
+
+.lni-visa::before {
+  content: @lni-visa;
+}
+
+.lni-vimeo::before {
+  content: @lni-vimeo;
+}
+
+.lni-vercel::before {
+  content: @lni-vercel;
+}
+
+.lni-unsplash::before {
+  content: @lni-unsplash;
+}
+
+.lni-ubuntu::before {
+  content: @lni-ubuntu;
+}
+
+.lni-typescript::before {
+  content: @lni-typescript;
+}
+
+.lni-twitter::before {
+  content: @lni-twitter;
+}
+
+.lni-twitter-original::before {
+  content: @lni-twitter-original;
+}
+
+.lni-twitter-fill::before {
+  content: @lni-twitter-fill;
+}
+
+.lni-twitch::before {
+  content: @lni-twitch;
+}
+
+.lni-tumblr::before {
+  content: @lni-tumblr;
+}
+
+.lni-trello::before {
+  content: @lni-trello;
+}
+
+.lni-toyota::before {
+  content: @lni-toyota;
+}
+
+.lni-tiktok::before {
+  content: @lni-tiktok;
+}
+
+.lni-tiktok-alt::before {
+  content: @lni-tiktok-alt;
+}
+
+.lni-tesla::before {
+  content: @lni-tesla;
+}
+
+.lni-telegram::before {
+  content: @lni-telegram;
+}
+
+.lni-telegram-original::before {
+  content: @lni-telegram-original;
+}
+
+.lni-tailwindcss::before {
+  content: @lni-tailwindcss;
+}
+
+.lni-swift::before {
+  content: @lni-swift;
+}
+
+.lni-svelte::before {
+  content: @lni-svelte;
+}
+
+.lni-stumbleupon::before {
+  content: @lni-stumbleupon;
+}
+
+.lni-stripe::before {
+  content: @lni-stripe;
+}
+
+.lni-steam::before {
+  content: @lni-steam;
+}
+
+.lni-stackoverflow::before {
+  content: @lni-stackoverflow;
+}
+
+.lni-squarespace::before {
+  content: @lni-squarespace;
+}
+
+.lni-spotify::before {
+  content: @lni-spotify;
+}
+
+.lni-spotify-original::before {
+  content: @lni-spotify-original;
+}
+
+.lni-soundcloud::before {
+  content: @lni-soundcloud;
+}
+
+.lni-soundcloud-original::before {
+  content: @lni-soundcloud-original;
+}
+
+.lni-snapchat::before {
+  content: @lni-snapchat;
+}
+
+.lni-slideshare::before {
+  content: @lni-slideshare;
+}
+
+.lni-slack::before {
+  content: @lni-slack;
+}
+
+.lni-slack-line::before {
+  content: @lni-slack-line;
+}
+
+.lni-skype::before {
+  content: @lni-skype;
+}
+
+.lni-sketch::before {
+  content: @lni-sketch;
+}
+
+.lni-signal-app::before {
+  content: @lni-signal-app;
+}
+
+.lni-shopify::before {
+  content: @lni-shopify;
+}
+
+.lni-safari::before {
+  content: @lni-safari;
+}
+
+.lni-reddit::before {
+  content: @lni-reddit;
+}
+
+.lni-react::before {
+  content: @lni-react;
+}
+
+.lni-quora::before {
+  content: @lni-quora;
+}
+
+.lni-python::before {
+  content: @lni-python;
+}
+
+.lni-producthunt::before {
+  content: @lni-producthunt;
+}
+
+.lni-postman::before {
+  content: @lni-postman;
+}
+
+.lni-postgresql::before {
+  content: @lni-postgresql;
+}
+
+.lni-playstation::before {
+  content: @lni-playstation;
+}
+
+.lni-play-store::before {
+  content: @lni-play-store;
+}
+
+.lni-play-store-fill::before {
+  content: @lni-play-store-fill;
+}
+
+.lni-play-store-alt::before {
+  content: @lni-play-store-alt;
+}
+
+.lni-pinterest::before {
+  content: @lni-pinterest;
+}
+
+.lni-php::before {
+  content: @lni-php;
+}
+
+.lni-paypal::before {
+  content: @lni-paypal;
+}
+
+.lni-paypal-original::before {
+  content: @lni-paypal-original;
+}
+
+.lni-patreon::before {
+  content: @lni-patreon;
+}
+
+.lni-paddle::before {
+  content: @lni-paddle;
+}
+
+.lni-opera::before {
+  content: @lni-opera;
+}
+
+.lni-oculus::before {
+  content: @lni-oculus;
+}
+
+.lni-npm::before {
+  content: @lni-npm;
+}
+
+.lni-notion::before {
+  content: @lni-notion;
+}
+
+.lni-nodejs::before {
+  content: @lni-nodejs;
+}
+
+.lni-nodejs-alt::before {
+  content: @lni-nodejs-alt;
+}
+
+.lni-nissan::before {
+  content: @lni-nissan;
+}
+
+.lni-nextjs::before {
+  content: @lni-nextjs;
+}
+
+.lni-netlify::before {
+  content: @lni-netlify;
+}
+
+.lni-netflix::before {
+  content: @lni-netflix;
+}
+
+.lni-mysql::before {
+  content: @lni-mysql;
+}
+
+.lni-mongodb::before {
+  content: @lni-mongodb;
+}
+
+.lni-microsoft::before {
+  content: @lni-microsoft;
+}
+
+.lni-microsoft-teams::before {
+  content: @lni-microsoft-teams;
+}
+
+.lni-microsoft-edge::before {
+  content: @lni-microsoft-edge;
+}
+
+.lni-meta::before {
+  content: @lni-meta;
+}
+
+.lni-meta-2::before {
+  content: @lni-meta-2;
+}
+
+.lni-meta-1::before {
+  content: @lni-meta-1;
+}
+
+.lni-mercedes::before {
+  content: @lni-mercedes;
+}
+
+.lni-medium::before {
+  content: @lni-medium;
+}
+
+.lni-medium-alt::before {
+  content: @lni-medium-alt;
+}
+
+.lni-mastercard::before {
+  content: @lni-mastercard;
+}
+
+.lni-markdown::before {
+  content: @lni-markdown;
+}
+
+.lni-mailchimp::before {
+  content: @lni-mailchimp;
+}
+
+.lni-magento::before {
+  content: @lni-magento;
+}
+
+.lni-linkedin::before {
+  content: @lni-linkedin;
+}
+
+.lni-linkedin-original::before {
+  content: @lni-linkedin-original;
+}
+
+.lni-lineicons::before {
+  content: @lni-lineicons;
+}
+
+.lni-lineicons-symbol::before {
+  content: @lni-lineicons-symbol;
+}
+
+.lni-lineicons-symbol-alt::before {
+  content: @lni-lineicons-symbol-alt;
+}
+
+.lni-lineicons-symbol-alt-2::before {
+  content: @lni-lineicons-symbol-alt-2;
+}
+
+.lni-lineicons-alt::before {
+  content: @lni-lineicons-alt;
+}
+
+.lni-line::before {
+  content: @lni-line;
+}
+
+.lni-laravel::before {
+  content: @lni-laravel;
+}
+
+.lni-kubernetes::before {
+  content: @lni-kubernetes;
+}
+
+.lni-jsfiddle::before {
+  content: @lni-jsfiddle;
+}
+
+.lni-joomla::before {
+  content: @lni-joomla;
+}
+
+.lni-joomla-original::before {
+  content: @lni-joomla-original;
+}
+
+.lni-jcb::before {
+  content: @lni-jcb;
+}
+
+.lni-javascript::before {
+  content: @lni-javascript;
+}
+
+.lni-java::before {
+  content: @lni-java;
+}
+
+.lni-jamstack::before {
+  content: @lni-jamstack;
+}
+
+.lni-jaguar::before {
+  content: @lni-jaguar;
+}
+
+.lni-ios::before {
+  content: @lni-ios;
+}
+
+.lni-instagram::before {
+  content: @lni-instagram;
+}
+
+.lni-instagram-original::before {
+  content: @lni-instagram-original;
+}
+
+.lni-instagram-fill::before {
+  content: @lni-instagram-fill;
+}
+
+.lni-imdb::before {
+  content: @lni-imdb;
+}
+
+.lni-html5::before {
+  content: @lni-html5;
+}
+
+.lni-hacker-news::before {
+  content: @lni-hacker-news;
+}
+
+.lni-grammarly::before {
+  content: @lni-grammarly;
+}
+
+.lni-google::before {
+  content: @lni-google;
+}
+
+.lni-google-wallet::before {
+  content: @lni-google-wallet;
+}
+
+.lni-google-pay::before {
+  content: @lni-google-pay;
+}
+
+.lni-google-drive::before {
+  content: @lni-google-drive;
+}
+
+.lni-google-cloud::before {
+  content: @lni-google-cloud;
+}
+
+.lni-google-meet::before {
+  content: @lni-google-meet;
+}
+
+.lni-goodreads::before {
+  content: @lni-goodreads;
+}
+
+.lni-go::before {
+  content: @lni-go;
+}
+
+.lni-github::before {
+  content: @lni-github;
+}
+
+.lni-github-original::before {
+  content: @lni-github-original;
+}
+
+.lni-git::before {
+  content: @lni-git;
+}
+
+.lni-gatsby::before {
+  content: @lni-gatsby;
+}
+
+.lni-ford::before {
+  content: @lni-ford;
+}
+
+.lni-flutter::before {
+  content: @lni-flutter;
+}
+
+.lni-flickr::before {
+  content: @lni-flickr;
+}
+
+.lni-fitbit::before {
+  content: @lni-fitbit;
+}
+
+.lni-firefox::before {
+  content: @lni-firefox;
+}
+
+.lni-firefox-original::before {
+  content: @lni-firefox-original;
+}
+
+.lni-firebase::before {
+  content: @lni-firebase;
+}
+
+.lni-figma::before {
+  content: @lni-figma;
+}
+
+.lni-facetime::before {
+  content: @lni-facetime;
+}
+
+.lni-facebook::before {
+  content: @lni-facebook;
+}
+
+.lni-facebook-oval::before {
+  content: @lni-facebook-oval;
+}
+
+.lni-facebook-original::before {
+  content: @lni-facebook-original;
+}
+
+.lni-facebook-messenger::before {
+  content: @lni-facebook-messenger;
+}
+
+.lni-facebook-line::before {
+  content: @lni-facebook-line;
+}
+
+.lni-facebook-fill::before {
+  content: @lni-facebook-fill;
+}
+
+.lni-ethereum::before {
+  content: @lni-ethereum;
+}
+
+.lni-envato::before {
+  content: @lni-envato;
+}
+
+.lni-edge::before {
+  content: @lni-edge;
+}
+
+.lni-drupal::before {
+  content: @lni-drupal;
+}
+
+.lni-drupal-original::before {
+  content: @lni-drupal-original;
+}
+
+.lni-dropbox::before {
+  content: @lni-dropbox;
+}
+
+.lni-dropbox-original::before {
+  content: @lni-dropbox-original;
+}
+
+.lni-dribbble::before {
+  content: @lni-dribbble;
+}
+
+.lni-docker::before {
+  content: @lni-docker;
+}
+
+.lni-discover::before {
+  content: @lni-discover;
+}
+
+.lni-discord::before {
+  content: @lni-discord;
+}
+
+.lni-discord-alt::before {
+  content: @lni-discord-alt;
+}
+
+.lni-diners-club::before {
+  content: @lni-diners-club;
+}
+
+.lni-digitalocean::before {
+  content: @lni-digitalocean;
+}
+
+.lni-dialogflow::before {
+  content: @lni-dialogflow;
+}
+
+.lni-dev::before {
+  content: @lni-dev;
+}
+
+.lni-css3::before {
+  content: @lni-css3;
+}
+
+.lni-creative-commons::before {
+  content: @lni-creative-commons;
+}
+
+.lni-cpanel::before {
+  content: @lni-cpanel;
+}
+
+.lni-coral::before {
+  content: @lni-coral;
+}
+
+.lni-connectdevelop::before {
+  content: @lni-connectdevelop;
+}
+
+.lni-coinbase::before {
+  content: @lni-coinbase;
+}
+
+.lni-codepen::before {
+  content: @lni-codepen;
+}
+
+.lni-cloudflare::before {
+  content: @lni-cloudflare;
+}
+
+.lni-cisco::before {
+  content: @lni-cisco;
+}
+
+.lni-chromecast::before {
+  content: @lni-chromecast;
+}
+
+.lni-chrome::before {
+  content: @lni-chrome;
+}
+
+.lni-cash-app::before {
+  content: @lni-cash-app;
+}
+
+.lni-btc::before {
+  content: @lni-btc;
+}
+
+.lni-brave::before {
+  content: @lni-brave;
+}
+
+.lni-bootstrap::before {
+  content: @lni-bootstrap;
+}
+
+.lni-bootstrap-5::before {
+  content: @lni-bootstrap-5;
+}
+
+.lni-bmw::before {
+  content: @lni-bmw;
+}
+
+.lni-bluetooth-original::before {
+  content: @lni-bluetooth-original;
+}
+
+.lni-blogger::before {
+  content: @lni-blogger;
+}
+
+.lni-bittorrent::before {
+  content: @lni-bittorrent;
+}
+
+.lni-bitcoin::before {
+  content: @lni-bitcoin;
+}
+
+.lni-bitbucket::before {
+  content: @lni-bitbucket;
+}
+
+.lni-behance::before {
+  content: @lni-behance;
+}
+
+.lni-behance-original::before {
+  content: @lni-behance-original;
+}
+
+.lni-azure::before {
+  content: @lni-azure;
+}
+
+.lni-aws::before {
+  content: @lni-aws;
+}
+
+.lni-audi::before {
+  content: @lni-audi;
+}
+
+.lni-atlassian::before {
+  content: @lni-atlassian;
+}
+
+.lni-apple-pay::before {
+  content: @lni-apple-pay;
+}
+
+.lni-apple-music::before {
+  content: @lni-apple-music;
+}
+
+.lni-apple-brand::before {
+  content: @lni-apple-brand;
+}
+
+.lni-app-store::before {
+  content: @lni-app-store;
+}
+
+.lni-angular::before {
+  content: @lni-angular;
+}
+
+.lni-angellist::before {
+  content: @lni-angellist;
+}
+
+.lni-android::before {
+  content: @lni-android;
+}
+
+.lni-android-original::before {
+  content: @lni-android-original;
+}
+
+.lni-amex::before {
+  content: @lni-amex;
+}
+
+.lni-amazon::before {
+  content: @lni-amazon;
+}
+
+.lni-amazon-pay::before {
+  content: @lni-amazon-pay;
+}
+
+.lni-amazon-original::before {
+  content: @lni-amazon-original;
+}
+
+.lni-airtable::before {
+  content: @lni-airtable;
+}
+
+.lni-airbnb::before {
+  content: @lni-airbnb;
+}
+
+.lni-adobe::before {
+  content: @lni-adobe;
+}
+
+.lni-500px::before {
+  content: @lni-500px;
+}
+
