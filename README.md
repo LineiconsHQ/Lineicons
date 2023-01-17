@@ -4,7 +4,7 @@ Lineicons is the ultimate icon resource for designers and developers looking for
 Our free basic pack includes 596 high-quality icons that can be used in any commrcial or personal projects without attribution. 
 Downloading or customizing them to fit your needs is free and even easier when you use our icon editor: https://lineicons.com/icons/
 
-## [Explore All 5700+ Icons] (https://lineicons.com/)
+## [Explore and Download All 5700+ Icons](https://lineicons.com/)
 
 [![sneak-peek](https://content.lineicons.com/wp-content/uploads/2023/01/lineicons-4.png)](https://lineicons.com/)
 
