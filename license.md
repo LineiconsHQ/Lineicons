@@ -3,9 +3,8 @@ Thanks for using the Lineicons free basic version. Lineicons basic is a free ico
 LICENSE TERMS:
 
 1. Use, Edit, and Redistribution with Commercial Projects - Allowed
-2. Redistribution with Projects - Allowed
-3. Attribution - Appreciated, Not Mandatory  
-4. Reselling or Redistributing as 'Icon Pack/Icon' from Other Sources - NOT Allowed
+2. Attribution - Appreciated, Not Mandatory  
+3. Reselling or Redistributing as 'Icon Pack/Icon' from Other Sources - NOT Allowed
 
 ENJOY!
 
