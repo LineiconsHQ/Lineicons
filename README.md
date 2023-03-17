@@ -11,6 +11,8 @@ Downloading or customizing them to fit your needs is free and even easier when y
 
 [![lineicons-site](https://content.lineicons.com/wp-content/uploads/2023/01/lineicons-4.png)](https://lineicons.com/)
 
+### [Lineicons Figma Plugin](https://www.figma.com/community/plugin/1217738304122072948/Lineicons)
+
 ### [Lineicons - Figma Source](https://www.figma.com/community/file/1198194066179400874)
 
 ### Support
