@@ -1,0 +1,20 @@
+{
+  "name": "lineicons",
+  "version": "1.0.0",
+  "description": "Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons.  Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LineiconsHQ/Lineicons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LineiconsHQ/Lineicons/issues"
+  },
+  "homepage": "https://github.com/LineiconsHQ/Lineicons#readme"
+}
