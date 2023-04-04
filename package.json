@@ -1,7 +1,7 @@
 {
   "name": "lineicons",
-  "version": "1.0.0",
-  "description": "Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons.  Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution.",
+  "version": "1.0.1",
+  "description": "Free essential line icons for designers and developers - Available in SVG, Figma and Icon Font. 100% Free to use with commercial or personal projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,31 @@
     "type": "git",
     "url": "git+https://github.com/LineiconsHQ/Lineicons.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "TailGrids Team <support@lineicons.com> (https://lineicons.com/)",
+  "homepage": "https://lineicons.com/",
+  "license": "MIT",
+  "keywords": [
+    "icons",
+    "lineicons",
+    "line-icons",
+    "svg",
+    "icon-fonts",
+    "fontawesome",
+    "icon-pack",
+    "web-fonts",
+    "ui-icons",
+    "fill-icons",
+    "vector-icons",
+    "css",
+    "scss",
+    "iconography",
+    "flat-icons",
+    "simple-line-icons",
+    "brand-icons",
+    "symbol-icons",
+    "web-icons",
+    "icon-set"
+  ],
   "bugs": {
     "url": "https://github.com/LineiconsHQ/Lineicons/issues"
   },
