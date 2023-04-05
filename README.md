@@ -5,7 +5,7 @@ Our free basic version includes 596 high-quality line style icons that can be us
 
 ## Installation
 
-lineicons-react is available as an [npm package](https://www.npmjs.com/package/lineicons-react).
+lineicons is available as an [npm package](https://www.npmjs.com/package/lineicons).
 
 ```sh
 npm install lineicons
