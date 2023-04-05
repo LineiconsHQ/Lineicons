@@ -1,7 +1,7 @@
 # Lineicons - Free Essential Icons for Designers and Developers
 
-Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons. 
-Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution. 
+Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons.
+Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution.
 
 ## Installation
 
@@ -18,6 +18,17 @@ yarn add lineicons
 ```
 
 ## Usage
+
+Reference the css file with your project. Link the lineicons.css file into the `head` tag like below
+
+```
+<head>
+  <link href="/your-path-to-lineicons/web-font/lineicons.css" rel="stylesheet">
+</head>
+```
+
+Awesome! Now you are ready to start using the lineicons.
+
 ```sh
 <i class="lni lni-add-file"></i>
 ```
