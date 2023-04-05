@@ -3,6 +3,27 @@
 Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons. 
 Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution. 
 
+## Installation
+
+lineicons-react is available as an [npm package](https://www.npmjs.com/package/lineicons-react).
+
+```sh
+npm install lineicons
+```
+
+or
+
+```sh
+yarn add lineicons
+```
+
+## Usage
+```sh
+<i class="lni lni-add-file"></i>
+```
+
+## Useful Links and Information
+
 Downloading or customizing them to fit your needs is free and even easier when you use our on-site [Icon Editor](https://lineicons.com/icons/)
 
 ### [Documentation](https://lineicons.com/docs)
