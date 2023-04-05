@@ -17,6 +17,11 @@ or
 yarn add lineicons
 ```
 
+## Usage
+```sh
+<i class="lni lni-add-file"></i>
+```
+
 ## Useful Links and Information
 
 Downloading or customizing them to fit your needs is free and even easier when you use our on-site [Icon Editor](https://lineicons.com/icons/)
