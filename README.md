@@ -1,58 +1,80 @@
 # Lineicons - Free Essential Icons for Designers and Developers
 
-Lineicons is the ultimate icon library and pack for designers and developers looking for free essential icons.
-Our free basic version includes 596 high-quality line style icons that can be used in any commrcial or personal projects without attribution.
+Lineicons offers a comprehensive icon library and pack ideal for designers and developers seeking free essential icons. Our free basic version provides 600+ high-quality line-style icons, available for use in any commercial or personal projects without requiring attribution.
 
 ## Installation
 
-lineicons is available as an [npm package](https://www.npmjs.com/package/lineicons).
+You can easily install Lineicons as an [npm package](https://www.npmjs.com/package/lineicons).
 
-```sh
+```bash
 npm install lineicons
 ```
 
-or
+Alternatively, you can use Yarn:
 
-```sh
+```bash
 yarn add lineicons
 ```
 
 ## Usage
 
-Reference the css file with your project. Link the lineicons.css file into the `head` tag like below
+### Using CSS
 
-```
+To use Lineicons with CSS, simply reference the CSS file in your project. Insert the `lineicons.css` file within the `<head>` tag as shown below:
+
+```html
 <head>
   <link href="/your-path-to-lineicons/web-font/lineicons.css" rel="stylesheet">
 </head>
 ```
 
-Awesome! Now you are ready to start using the lineicons.
+You're all set to start utilizing Lineicons in your project:
 
-```sh
+```html
 <i class="lni lni-add-file"></i>
 ```
 
-## Useful Links and Information
+### Using SVG
 
-Downloading or customizing them to fit your needs is free and even easier when you use our on-site [Icon Editor](https://lineicons.com/icons/)
+For projects that require SVGs, you can easily incorporate Lineicons by using the SVG files directly. Follow these steps:
 
-### [Documentation](https://lineicons.com/docs)
+1. Navigate to the [Lineicons website](https://lineicons.com/).
+2. Browse and select the icon you wish to use.
+3. Download the SVG file of the icon.
+4. Insert the SVG file into your HTML file:
 
-### [Explore and Download All 5700+ Icons](https://lineicons.com/)
+```html
+<img src="/your-path-to-svg/icon-name.svg" alt="Icon Description">
+```
 
-[![lineicons-site](https://content.lineicons.com/wp-content/uploads/2023/01/lineicons-4.png)](https://lineicons.com/)
+This approach provides the flexibility of scaling icons without losing quality.
 
-### [Lineicons Figma Plugin](https://www.figma.com/community/plugin/1217738304122072948/Lineicons)
+### Using Icon Font CDN
 
-### [Lineicons - Figma Source](https://www.figma.com/community/file/1198194066179400874)
+One of the quickest ways to get started with Lineicons is by using the CDN. Lineicons offers CDN options for both free and premium plans.
+```html
+<link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+```
 
-### Support
+You can also download all the icons in variaous formats such as - React, SVG, PNG, Figma, Vue, Svelte and more from our [Icons](https://lineicons.com/icons). page
 
-You can always support this project and inspire our team by [Starring 🌟 This Repository](https://github.com/LineiconsHQ/Lineicons)
-and sharing with friends. If you like the Lineicons consider purchasing [Lineicons Pro](https://lineicons.com/pro/)
+## Useful Links and Resources
 
-### License
 
-Lineicons Basic is 100% Free! and you can use it with your personal or commercial projects without attribution or credits.
-![icon-editor](https://content.lineicons.com/wp-content/uploads/2023/01/icons-cover-scaled.jpeg)
+- [Documentation](https://lineicons.com/docs)
+- [Explore and Download All Icons](https://lineicons.com/)
+- [Lineicons Pro Pricing](https://lineicons.com/pricing)
+
+
+[![Visit Lineicons](https://cdn.pimjo.com/lineicons-5.jpg)](https://lineicons.com/)
+
+- [Lineicons Figma Plugin](https://www.figma.com/community/plugin/1217738304122072948/Lineicons)
+- [Lineicons - Figma Source](https://www.figma.com/community/file/1198194066179400874)
+
+## Support
+
+Support our project and inspire our team by [starring 🌟 our repository](https://github.com/LineiconsHQ/Lineicons) and sharing it with others. If you enjoy using Lineicons, consider upgrading to [Lineicons Pro](https://lineicons.com/pro/).
+
+## License
+
+Lineicons Basic is completely free! You can use it in your personal or commercial projects without needing to provide attribution or credits.
