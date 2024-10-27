@@ -1,0 +1,32 @@
+{
+  "name": "lineicons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-icons": "node src/scripts/generate-icons.js",
+    "build:webfonts": "webpack",
+    "build:svg": "rollup -c",
+    "build": " concurrently \"npm run generate-icons\" \"npm run build:webfonts\" \"npm run build:svg\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "concurrently": "^9.0.1",
+    "lit": "^3.2.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "rollup": "^2.79.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "svgo": "^3.3.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
