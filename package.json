@@ -7,7 +7,7 @@
     "generate-icons": "node src/scripts/generate-icons.js",
     "build:webfonts": "webpack",
     "build:svg": "rollup -c",
-    "build": " concurrently \"npm run generate-icons\" \"npm run build:webfonts\" \"npm run build:svg\""
+    "build": "node src/scripts/generate-icons.js && webpack && rollup -c"
   },
   "keywords": [
     "line-icons",

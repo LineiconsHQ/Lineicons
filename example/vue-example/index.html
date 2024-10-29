@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        }
+      }
+    </script>
+
+    <!-- Import your custom line-icon script -->
+    <script type="module" src="../../dist/lineicons.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <line-icon
+        name="adobe"
+        type="regular"
+        style="width: 50px; height: 50px"
+      ></line-icon>
+      <line-icon
+        name="amazon"
+        type="regular"
+        style="width: 50px; height: 50px"
+      ></line-icon>
+      <line-icon
+        name="500px"
+        type="regular"
+        style="width: 50px; height: 50px"
+      ></line-icon>
+      <p>{{ message }}</p>
+      <!-- Use the line-icon component directly in Vue template -->
+    </div>
+
+    <script type="module">
+      import { createApp } from "vue";
+
+      createApp({
+        data() {
+          return {
+            message: "Hello Vue!",
+          };
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>
