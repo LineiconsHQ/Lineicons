@@ -1,6 +1,6 @@
 {
   "name": "lineicons",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,18 @@
     "build:svg": "rollup -c",
     "build": " concurrently \"npm run generate-icons\" \"npm run build:webfonts\" \"npm run build:svg\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "line-icons",
+    "icons",
+    "svg",
+    "react-icons",
+    "icon-font",
+    "webfonts",
+    "vue-icons",
+    "ui"
+  ],
+  "author": "Lineicons",
+  "license": "MIT",
   "dependencies": {
     "css-loader": "^7.1.2",
     "vue": "^3.5.12"
