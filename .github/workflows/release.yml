@@ -8,13 +8,13 @@ on:
 
 jobs:
   release:
-    name: 🚀 lineicons release
+    name: 🚀 tailgrids release
     runs-on: ubuntu-latest
     steps:
       - name: 📚 checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: 🟢 node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org
