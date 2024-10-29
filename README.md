@@ -1,16 +1,16 @@
 # Lineicons - Free Essential Icons for Designers and Developers
 
-Lineicons offers a comprehensive icon library and pack ideal for designers and developers seeking free essential icons. Our free basic version provides 600+ high-quality line-style icons, available for use in any commercial or personal projects without requiring attribution.
+Lineicons provides an extensive library of essential icons, perfect for designers and developers seeking high-quality, free icons. Our free basic version includes over 600 icons in a clean, line-style design, available for use in any personal or commercial projects without attribution.
 
 ## Installation
 
-You can easily install Lineicons as an [npm package](https://www.npmjs.com/package/lineicons).
+You can install Lineicons easily as an [npm package](https://www.npmjs.com/package/lineicons).
 
 ```bash
 npm install lineicons
 ```
 
-Alternatively, you can use Yarn:
+Or, using Yarn:
 
 ```bash
 yarn add lineicons
@@ -18,53 +18,55 @@ yarn add lineicons
 
 ## Usage
 
-### Using CSS
+### Using CSS (Icon Font)
 
-To use Lineicons with CSS, simply reference the CSS file in your project. Insert the `lineicons.css` file within the `<head>` tag as shown below:
+To use Lineicons with CSS, link the `lineicons.css` file in your project’s `<head>`:
 
 ```html
 <head>
-  <link href="/your-path-to-lineicons/web-font/lineicons.css" rel="stylesheet">
+  <link href="[/project_path]/dist/lineicons.css" rel="stylesheet" />
 </head>
 ```
 
-You're all set to start utilizing Lineicons in your project:
+Now you can start using Lineicons:
 
 ```html
 <i class="lni lni-add-file"></i>
 ```
 
-### Using SVG
+### Using SVG as a Web Component (HTML, Vue, etc.)
 
-For projects that require SVGs, you can easily incorporate Lineicons by using the SVG files directly. Follow these steps:
+Alternatively, use SVG icons directly in your HTML, offering greater flexibility such as scaling, multi-color options, and advanced CSS animations, all while maintaining high resolution.
 
-1. Navigate to the [Lineicons website](https://lineicons.com/).
-2. Browse and select the icon you wish to use.
-3. Download the SVG file of the icon.
-4. Insert the SVG file into your HTML file:
+Add the following script to your project:
 
 ```html
-<img src="/your-path-to-svg/icon-name.svg" alt="Icon Description">
+<script type="module" src="[/project_path]/dist/lineicons.js"></script>
 ```
 
-This approach provides the flexibility of scaling icons without losing quality.
+You can now use the `<line-icon>` custom element in your HTML:
+
+```html
+<line-icon name="home" type="regular"></line-icon>
+```
+
+This approach ensures icons remain sharp, no matter the size.
 
 ### Using Icon Font CDN
 
-One of the quickest ways to get started with Lineicons is by using the CDN. Lineicons offers CDN options for both free and premium plans.
+For a quick start, Lineicons is also available via CDN, compatible with both free and premium versions.
+
 ```html
 <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
 ```
 
-You can also download all the icons in variaous formats such as - React, SVG, PNG, Figma, Vue, Svelte and more from our [Icons](https://lineicons.com/icons). page
+You can download icons in various formats, including React, SVG, PNG, Figma, Vue, Svelte, and more from our [Icons page](https://lineicons.com/icons).
 
 ## Useful Links and Resources
-
 
 - [Documentation](https://lineicons.com/docs)
 - [Explore and Download All Icons](https://lineicons.com/)
 - [Lineicons Pro Pricing](https://lineicons.com/pricing)
-
 
 [![Visit Lineicons](https://cdn.pimjo.com/lineicons-5.jpg)](https://lineicons.com/)
 
@@ -77,4 +79,4 @@ Support our project and inspire our team by [starring 🌟 our repository](https
 
 ## License
 
-Lineicons Basic is completely free! You can use it in your personal or commercial projects without needing to provide attribution or credits.
+Lineicons Basic is completely free! Feel free to use it in personal or commercial projects, no attribution required.
